@@ -1,0 +1,44 @@
+refresh-ticks: 5
+
+# Adds two buttons to empty slots in the normal inventory GUI opened by /cosmetics.
+# It does NOT alter CosmeticsCore's wardrobe/camera preview.
+cosmeticscore-menu:
+  enabled: true
+  # Used only to identify the CosmeticsCore inventory. Add the exact title here if needed.
+  title-contains:
+    - "Cosmetics"
+  # The plugin tries these first, but NEVER overwrites a non-empty CosmeticsCore slot.
+  # If none are empty it searches backward for any empty slot.
+  preferred-slots:
+    main-hand: [52, 51, 50, 8, 7]
+    off-hand: [53, 50, 49, 7, 6]
+  back-command: "cosmetics"
+  main-hand:
+    icon: "flamebourne_handcosmetics:main_hand"
+    name: "&6Main Hand"
+    lore:
+      - "&7Cosmetics displayed over"
+      - "&7whatever you really hold."
+      - ""
+      - "&eClick to browse"
+  off-hand:
+    icon: "flamebourne_handcosmetics:off_hand"
+    name: "&bOff Hand"
+    lore:
+      - "&7Cosmetics displayed over"
+      - "&7whatever is in your off hand."
+      - ""
+      - "&eClick to browse"
+
+# Add your handheld cosmetics here.
+# item = what is rendered over the real equipped item.
+# gui-item = optional separate ItemsAdder icon. Defaults to item.
+cosmetics:
+  # fire_staff:
+  #   display-name: "Fire Staff"
+  #   item: "lionos_forge:fire_staff"
+  #   gui-item: "lionos_forge:fire_staff"
+  #   slot: "MAIN_HAND"
+  #   permission: "flamebourne.handcosmetic.fire_staff"
+  #   lore:
+  #     - "&7A blazing cosmetic staff."
