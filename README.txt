@@ -1,4 +1,4 @@
-FlameBourneHandCosmetics 2.0
+HandCosmetics 2.0
 
 Target: Paper 26.2 / Java 25, CosmeticsCore 1.3.13, ItemsAdder.
 
