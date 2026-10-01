@@ -1,0 +1,15 @@
+info:
+  namespace: handcosmetics
+items:
+  main_hand:
+    display_name: "<gold>Main Hand"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/main_hand
+  off_hand:
+    display_name: "<aqua>Off Hand"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: item/off_hand

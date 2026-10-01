@@ -1,0 +1,18 @@
+GitHub build instructions
+
+1. Create a new GitHub repository.
+2. Upload EVERYTHING in this ZIP to the repository root.
+   Do not upload the enclosing folder as an extra directory level.
+3. Commit the files.
+4. Open the repository's Actions tab.
+5. Select "Build HandCosmetics".
+6. Click "Run workflow".
+7. When the run finishes, open it and download:
+      HandCosmetics-2.0.0
+8. Extract the downloaded artifact. It contains:
+      HandCosmetics-2.0.0.jar
+
+The workflow uses Java 25 and Maven.
+
+The ItemsAdder files under resourcepack/ are NOT compiled into the plugin JAR.
+They are the separate resource-pack portion that should be merged into your server as described in README.txt.

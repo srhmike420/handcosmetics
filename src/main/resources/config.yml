@@ -14,7 +14,7 @@ cosmeticscore-menu:
     off-hand: [53, 50, 49, 7, 6]
   back-command: "cosmetics"
   main-hand:
-    icon: "flamebourne_handcosmetics:main_hand"
+    icon: "handcosmetics:main_hand"
     name: "&6Main Hand"
     lore:
       - "&7Cosmetics displayed over"
@@ -22,7 +22,7 @@ cosmeticscore-menu:
       - ""
       - "&eClick to browse"
   off-hand:
-    icon: "flamebourne_handcosmetics:off_hand"
+    icon: "handcosmetics:off_hand"
     name: "&bOff Hand"
     lore:
       - "&7Cosmetics displayed over"
@@ -39,6 +39,6 @@ cosmetics:
   #   item: "lionos_forge:fire_staff"
   #   gui-item: "lionos_forge:fire_staff"
   #   slot: "MAIN_HAND"
-  #   permission: "flamebourne.handcosmetic.fire_staff"
+  #   permission: "handcosmetics.cosmetic.fire_staff"
   #   lore:
   #     - "&7A blazing cosmetic staff."

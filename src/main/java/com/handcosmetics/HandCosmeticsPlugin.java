@@ -1,4 +1,4 @@
-package com.flamebourne.handcosmetics;
+package com.handcosmetics;
 
 import org.bukkit.*;
 import org.bukkit.command.*;
@@ -218,7 +218,7 @@ public final class HandCosmeticsPlugin extends JavaPlugin implements Listener, C
 
     @Override public boolean onCommand(CommandSender s,Command c,String l,String[] a){
         if(a.length==0){if(s instanceof Player p)openCategory(p,HandSlot.MAIN_HAND,0);else s.sendMessage("/hc reload");return true;}
-        if(a[0].equalsIgnoreCase("reload")){if(s.hasPermission("flamebourne.handcosmetics.admin")){loadDefs();loadPlayers();startRefresh();s.sendMessage("§aHand cosmetics reloaded.");}return true;}
+        if(a[0].equalsIgnoreCase("reload")){if(s.hasPermission("handcosmetics.admin")){loadDefs();loadPlayers();startRefresh();s.sendMessage("§aHand cosmetics reloaded.");}return true;}
         if(!(s instanceof Player p))return true;
         switch(a[0].toLowerCase(Locale.ROOT)){
             case "main"->openCategory(p,HandSlot.MAIN_HAND,0);

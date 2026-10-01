@@ -1,6 +1,6 @@
-name: FlameBourneHandCosmetics
+name: HandCosmetics
 version: 2.0.0
-main: com.flamebourne.handcosmetics.HandCosmeticsPlugin
+main: com.handcosmetics.HandCosmeticsPlugin
 api-version: '1.21'
 softdepend: [ItemsAdder, CosmeticsCore]
 commands:
@@ -8,7 +8,7 @@ commands:
     aliases: [hc]
     description: Main/off-hand visual cosmetics
 permissions:
-  flamebourne.handcosmetics.use:
+  handcosmetics.use:
     default: true
-  flamebourne.handcosmetics.admin:
+  handcosmetics.admin:
     default: op

@@ -1,4 +1,4 @@
-FlameBourneHandCosmetics 2.0
+HandCosmetics 2.0
 
 Target: Paper 26.2 / Java 25, CosmeticsCore 1.3.13, ItemsAdder.
 
@@ -17,7 +17,7 @@ INSTALL
 1. Put target/handcosmetics-2.0.0.jar in plugins.
 2. Merge resourcepack/plugins/ItemsAdder into your server plugins/ItemsAdder.
 3. Regenerate the ItemsAdder resource pack.
-4. Start server once, then add your hand cosmetics to plugins/FlameBourneHandCosmetics/config.yml.
+4. Start server once, then add your hand cosmetics to plugins/HandCosmetics/config.yml.
 5. /hc reload
 
 IMPORTANT
